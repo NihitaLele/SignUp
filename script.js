@@ -36,6 +36,7 @@ form.addEventListener('submit', function(event) {
     if (valid) {
         if (confirm('Are you sure you want to sign up?')) {
             alert('Successful signup!');
+            form.reset();
         } else {
             window.location.href = window.location.href;
         }
