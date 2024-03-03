@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Form</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="section-signup container">
+    <h2>Sign Up</h2>
+    <div class="form-group">
+    <form id="signupForm" class="signup-form">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Example@email.com"><br>
+        <span id="emailError" class="error"></span><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Your password"><br>
+        <span id="passwordError" class="error"></span><br>
+    
+        <span id="successMessage" class="success"></span><br>
+    
+        <button type="submit" class="btn signup-btn">Submit</button>
+    </form>
+</div>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
